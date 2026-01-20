@@ -16,15 +16,15 @@ author = "agent"
 
 [[workflows.workflow.tasks]]
 task = "workflow.run"
-args = "LiteRead Info"
+args = "LiteRead-Environment"
 
 [[workflows.workflow]]
-name = "LiteRead Info"
+name = "LiteRead-Environment"
 author = "agent"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "./run.sh"
+args = "./replit_run.sh"
 
 [workflows.workflow.metadata]
 outputType = "console"

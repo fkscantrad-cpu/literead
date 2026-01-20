@@ -61,6 +61,7 @@ This project requires Android Studio or the Android SDK to build:
 - Kotlin Coroutines and Serialization
 
 ## Replit Environment Notes
-- Android SDK is not available in Replit
-- The workflow displays project information
-- Full building requires Android Studio locally
+- Android SDK is not available in Replit.
+- This project is configured for **GitHub Actions** to handle building APKs and AABs.
+- The workflows have been updated to use **JDK 17** and the latest **v4 Actions**.
+- Local building still requires Android Studio.
