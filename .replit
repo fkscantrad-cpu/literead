@@ -1,0 +1,30 @@
+modules = ["bash", "java-graalvm22.3"]
+[agent]
+expertMode = true
+
+[nix]
+channel = "stable-25_05"
+packages = ["gradle"]
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "LiteRead Info"
+
+[[workflows.workflow]]
+name = "LiteRead Info"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "./run.sh"
+
+[workflows.workflow.metadata]
+outputType = "console"
