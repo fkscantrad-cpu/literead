@@ -32,10 +32,10 @@ class SettingsActivity : AppCompatActivity() {
 
         // Thème
         when (preferences.theme) {
-            ThemeManager.THEME_LIGHT -> binding.lightTheme.isChecked = true
-            ThemeManager.THEME_DARK -> binding.darkTheme.isChecked = true
-            ThemeManager.THEME_SEPIA -> binding.sepiaTheme.isChecked = true
-            ThemeManager.THEME_AMOLED -> binding.amoledTheme.isChecked = true
+            com.literead.theme.ThemeManager.THEME_LIGHT -> binding.lightTheme.isChecked = true
+            com.literead.theme.ThemeManager.THEME_DARK -> binding.darkTheme.isChecked = true
+            com.literead.theme.ThemeManager.THEME_SEPIA -> binding.sepiaTheme.isChecked = true
+            com.literead.theme.ThemeManager.THEME_AMOLED -> binding.amoledTheme.isChecked = true
         }
 
         // Taille police
