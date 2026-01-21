@@ -66,16 +66,13 @@ class LibraryFragment : Fragment() {
     }
 
     private fun setupClickListeners() {
-        binding.searchBar.setOnQueryTextListener(
-            object : android.widget.SearchView.OnQueryTextListener {
-                override fun onQueryTextSubmit(query: String?): Boolean = false
-
-                override fun onQueryTextChange(newText: String?): Boolean {
-                    viewModel.search(newText ?: "")
-                    return true
-                }
+        binding.searchBar.editText.addTextChangedListener(object : android.text.TextWatcher {
+            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
+            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
+                viewModel.search(s?.toString() ?: "")
             }
-        )
+            override fun afterTextChanged(s: android.text.Editable?) {}
+        })
 
         binding.addFilesButton.setOnClickListener {
             // TODO: Ouvrir le file picker
