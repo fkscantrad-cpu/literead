@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="?android:attr/colorBackground"
+    android:background="?attr/android:colorBackground"
     android:orientation="vertical">
 
     <!-- Reader Content Area (will be replaced by PDF/EPUB/Text renderer) -->
@@ -12,14 +12,14 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="?android:attr/colorBackground" />
+        android:background="?attr/android:colorBackground" />
 
     <!-- Reader Controls (Bottom Sheet) -->
     <LinearLayout
         android:id="@+id/readerControls"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?android:attr/windowBackground"
+        android:background="?attr/colorSurface"
         android:elevation="8dp"
         android:orientation="vertical"
         android:padding="12dp">
