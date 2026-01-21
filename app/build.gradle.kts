@@ -67,21 +67,15 @@ dependencies {
     // Material Design
     implementation("com.google.android.material:material:1.10.0")
 
-    // PDF: PdfiumAndroid (très léger, rapide, sans dependencies)
-    implementation("io.github.javacpp:pdfium:6248:android-arm64@aar")
-    implementation("io.github.javacpp:pdfium:6248:android-armv7@aar")
-    implementation("io.github.javacpp:pdfium:6248:android-x86@aar")
-    implementation("io.github.javacpp:pdfium:6248:android-x86_64@aar")
+    // PDF: PdfiumAndroid
+    implementation("com.github.barteksc:pdfium-android:1.9.0")
 
-    // Alternative légère pour PDF: MuPDF (peut être utilisé)
-    // implementation("com.artifex.mupdf:mupdf:1.23.8")
-
-    // EPUB: Readium (optimisé, léger)
-    implementation("org.readium.kotlin-toolkit:readium-shared:3.0.0-beta.1")
-    implementation("org.readium.kotlin-toolkit:readium-navigator:3.0.0-beta.1")
+    // EPUB: Readium (v2 stable pour éviter les problèmes de snapshots/auth)
+    implementation("org.readium.kotlin-toolkit:readium-shared:2.4.0")
+    implementation("org.readium.kotlin-toolkit:readium-navigator:2.4.0")
 
     // XML parsing
-    implementation("com.fasterxml.woodstox:woodstox-core:6.5.1")
+    implementation("org.ogce:xpp3:1.1.6")
 
     // Kotlin Coroutines (ultra-léger)
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
