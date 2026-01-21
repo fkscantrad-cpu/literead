@@ -4,9 +4,12 @@
     <style name="Theme.LiteRead" parent="Theme.Material3.Light.NoActionBar">
         <item name="colorPrimary">@color/primary_light</item>
         <item name="colorSecondary">@color/secondary_light</item>
+        <item name="colorTertiary">@color/tertiary_light</item>
         <item name="colorBackground">@color/background_light</item>
         <item name="android:colorBackground">@color/background_light</item>
         <item name="colorSurface">@color/surface_light</item>
+        <item name="colorError">@color/error_light</color>
+        <item name="colorErrorContainer">@color/error_container_light</item>
         <item name="colorOnSurface">@color/text_primary_light</item>
         <item name="colorOnSurfaceVariant">@color/text_secondary_light</item>
         <item name="android:statusBarColor">@color/surface_light</item>

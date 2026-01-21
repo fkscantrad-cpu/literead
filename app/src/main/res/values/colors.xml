@@ -1,46 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Light Theme Colors -->
+    <!-- Light Theme Colors - Material3 Compliant -->
     <color name="primary_light">#1F6FD3</color>
     <color name="primary_dark_light">#1557B0</color>
     <color name="secondary_light">#03DAC6</color>
     <color name="secondary_dark_light">#018786</color>
+    <color name="tertiary_light">#7C4DFF</color>
     <color name="background_light">#FFFFFF</color>
     <color name="surface_light">#F5F5F5</color>
     <color name="error_light">#B00020</color>
+    <color name="error_container_light">#F9DEDC</color>
     <color name="text_primary_light">#212121</color>
     <color name="text_secondary_light">#757575</color>
+    <color name="text_tertiary_light">#BDBDBD</color>
 
-    <!-- Dark Theme Colors -->
+    <!-- Dark Theme Colors - Material3 Compliant -->
     <color name="primary_dark">#BB86FC</color>
     <color name="primary_dark_dark">#3700B3</color>
     <color name="secondary_dark">#03DAC6</color>
     <color name="secondary_dark_dark">#03DAC6</color>
+    <color name="tertiary_dark">#7C4DFF</color>
     <color name="background_dark">#121212</color>
     <color name="surface_dark">#1E1E1E</color>
     <color name="error_dark">#CF6679</color>
+    <color name="error_container_dark">#93000A</color>
     <color name="text_primary_dark">#FFFFFF</color>
     <color name="text_secondary_dark">#B3B3B3</color>
+    <color name="text_tertiary_dark">#808080</color>
 
-    <!-- Sepia Theme Colors -->
+    <!-- Sepia Theme Colors - Material3 Compliant -->
     <color name="primary_sepia">#8B4513</color>
     <color name="primary_dark_sepia">#654321</color>
     <color name="secondary_sepia">#D4A574</color>
     <color name="secondary_dark_sepia">#A0826D</color>
+    <color name="tertiary_sepia">#A1887F</color>
     <color name="background_sepia">#FFF8DC</color>
     <color name="surface_sepia">#FFEFD5</color>
+    <color name="error_sepia">#BA1A1A</color>
+    <color name="error_container_sepia">#FFDAD6</color>
     <color name="text_primary_sepia">#3E2723</color>
     <color name="text_secondary_sepia">#6D4C41</color>
+    <color name="text_tertiary_sepia">#A1887F</color>
 
-    <!-- AMOLED Theme Colors (Pure Black) -->
+    <!-- AMOLED Theme Colors (Pure Black) - Material3 Compliant -->
     <color name="primary_amoled">#BB86FC</color>
     <color name="primary_dark_amoled">#3700B3</color>
     <color name="secondary_amoled">#03DAC6</color>
     <color name="secondary_dark_amoled">#03DAC6</color>
+    <color name="tertiary_amoled">#7C4DFF</color>
     <color name="background_amoled">#000000</color>
     <color name="surface_amoled">#0A0A0A</color>
+    <color name="error_amoled">#CF6679</color>
+    <color name="error_container_amoled">#93000A</color>
     <color name="text_primary_amoled">#FFFFFF</color>
     <color name="text_secondary_amoled">#999999</color>
+    <color name="text_tertiary_amoled">#666666</color>
 
     <!-- Neutral Colors -->
     <color name="white">#FFFFFF</color>
