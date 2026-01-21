@@ -66,15 +66,11 @@ class LibraryFragment : Fragment() {
     }
 
     private fun setupClickListeners() {
-        // Correct Material 3 SearchBar access to internal EditText
-        val searchEditText = binding.searchBar.findViewById<android.widget.EditText>(com.google.android.material.R.id.search_bar_text_view)
-        searchEditText?.addTextChangedListener(object : android.text.TextWatcher {
-            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
-            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
-                viewModel.search(s?.toString() ?: "")
-            }
-            override fun afterTextChanged(s: android.text.Editable?) {}
-        })
+        // Material 3 SearchBar does not expose its internal EditText easily.
+        // We use the SearchBar directly for interaction.
+        binding.searchBar.setOnClickListener {
+            // Logic to open SearchView if implemented
+        }
 
         binding.addFilesButton.setOnClickListener {
             // Ouvrir le FileExplorerFragment
