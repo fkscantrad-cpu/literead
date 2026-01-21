@@ -4,6 +4,8 @@
     <style name="Theme.LiteRead" parent="Theme.Material3.Light.NoActionBar">
         <item name="colorPrimary">@color/primary_light</item>
         <item name="colorSecondary">@color/secondary_light</item>
+        <item name="android:colorBackground">@color/background_light</item>
+        <item name="colorSurface">@color/surface_light</item>
         <item name="android:statusBarColor">@color/surface_light</item>
         <item name="android:navigationBarColor">@color/background_light</item>
         <item name="android:windowLightStatusBar">true</item>
@@ -13,6 +15,8 @@
     <style name="Theme.LiteRead.Dark" parent="Theme.Material3.Dark.NoActionBar">
         <item name="colorPrimary">@color/primary_dark</item>
         <item name="colorSecondary">@color/secondary_dark</item>
+        <item name="android:colorBackground">@color/background_dark</item>
+        <item name="colorSurface">@color/surface_dark</item>
         <item name="android:statusBarColor">@color/surface_dark</item>
         <item name="android:navigationBarColor">@color/background_dark</item>
     </style>
@@ -21,6 +25,8 @@
     <style name="Theme.LiteRead.Sepia" parent="Theme.Material3.Dark.NoActionBar">
         <item name="colorPrimary">@color/primary_sepia</item>
         <item name="colorSecondary">@color/secondary_sepia</item>
+        <item name="android:colorBackground">@color/background_sepia</item>
+        <item name="colorSurface">@color/surface_sepia</item>
         <item name="android:statusBarColor">@color/surface_sepia</item>
         <item name="android:navigationBarColor">@color/background_sepia</item>
     </style>
@@ -29,6 +35,8 @@
     <style name="Theme.LiteRead.Amoled" parent="Theme.Material3.Dark.NoActionBar">
         <item name="colorPrimary">@color/primary_amoled</item>
         <item name="colorSecondary">@color/secondary_amoled</item>
+        <item name="android:colorBackground">@color/background_amoled</item>
+        <item name="colorSurface">@color/surface_amoled</item>
         <item name="android:statusBarColor">@color/background_amoled</item>
         <item name="android:navigationBarColor">@color/background_amoled</item>
         <item name="android:windowBackground">@color/background_amoled</item>

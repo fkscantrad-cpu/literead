@@ -1,0 +1,79 @@
+Skip to content
+wabosphere
+literead
+Repository navigation
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+Build & Test
+Saved progress at the end of the loop #14
+All jobs
+Run details
+Annotations
+1 error and 1 warning
+build
+failed 2 minutes ago in 4m 28s
+Search logs
+1s
+0s
+1s
+0s
+4m 22s
+Run ./gradlew assembleDebug
+Downloading https://services.gradle.org/distributions/gradle-8.5-bin.zip
+............10%.............20%............30%.............40%.............50%............60%.............70%.............80%............90%.............100%
+
+Welcome to Gradle 8.5!
+
+Here are the highlights of this release:
+ - Support for running on Java 21
+ - Faster first use with Kotlin DSL
+ - Improved error and warning messages
+
+For more details see https://docs.gradle.org/8.5/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+Checking the license for package Android SDK Build-Tools 33.0.1 in /usr/local/lib/android/sdk/licenses
+License for package Android SDK Build-Tools 33.0.1 accepted.
+Preparing "Install Android SDK Build-Tools 33.0.1 v.33.0.1".
+"Install Android SDK Build-Tools 33.0.1 v.33.0.1" ready.
+Installing Android SDK Build-Tools 33.0.1 in /usr/local/lib/android/sdk/build-tools/33.0.1
+"Install Android SDK Build-Tools 33.0.1 v.33.0.1" complete.
+"Install Android SDK Build-Tools 33.0.1 v.33.0.1" finished.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:dataBindingMergeDependencyArtifactsDebug
+WARNING: [Processor] Library '/home/runner/.gradle/caches/modules-2/files-2.1/org.readium.kotlin-toolkit/readium-navigator/2.3.0/d46c5803fc36d2035614f31e426fcbfb9e3171a9/readium-navigator-2.3.0.aar' contains references to both AndroidX and old support library. This seems like the library is partially migrated. Jetifier will try to rewrite the library anyway.
+ Example of androidX reference: 'androidx/fragment/app/FragmentActivity'
+ Example of support library reference: 'android/support/v4/media/MediaDescriptionCompat'
+WARNING: [Processor] Library '/home/runner/.gradle/caches/modules-2/files-2.1/com.google.android.exoplayer/extension-mediasession/2.18.1/454f0873b3bc62808647db8f83e484430f4872db/extension-mediasession-2.18.1.aar' contains references to both AndroidX and old support library. This seems like the library is partially migrated. Jetifier will try to rewrite the library anyway.
+ Example of androidX reference: 'androidx/annotation/Nullable'
+ Example of support library reference: 'android/support/v4/media/session/MediaSessionCompat$Callback'
+WARNING: [Processor] Library '/home/runner/.gradle/caches/modules-2/files-2.1/com.google.android.exoplayer/exoplayer-ui/2.18.1/eed81d49b8b0e9a365cbec260dafb222d6e5bc67/exoplayer-ui-2.18.1.aar' contains references to both AndroidX and old support library. This seems like the library is partially migrated. Jetifier will try to rewrite the library anyway.
+ Example of androidX reference: 'androidx/core/app/NotificationCompat$Builder'
+ Example of support library reference: 'android/support/v4/media/session/MediaSessionCompat$Token'
+WARNING: [Processor] Library '/home/runner/.gradle/caches/modules-2/files-2.1/androidx.media2/media2-session/1.2.1/f927563711e36371c19b2e86fb7ccf1c3f259ca4/media2-session-1.2.1.aar' contains references to both AndroidX and old support library. This seems like the library is partially migrated. Jetifier will try to rewrite the library anyway.
+ Example of androidX reference: 'androidx/media2/session/MediaBrowser$Builder'
+ Example of support library reference: 'android/support/v4/media/session/MediaSessionCompat$Token'
+
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:packageDebugResources
+> Task :app:dataBindingTriggerDebug
+> Task :app:parseDebugLocalResources
+0s
+0s
+0s
+0s
+1s
+0s
+0s
+0s
