@@ -93,7 +93,22 @@ class ReaderActivity : AppCompatActivity() {
 
     private fun displayDocument() {
         // Implementation du rendu du document
-        // Cela dépendra du type de document (PDF, EPUB, etc.)
+        val uri = intent.data
+        if (uri != null) {
+            // Rendu basé sur le type MIME
+            val mimeType = contentResolver.getType(uri) ?: "application/pdf"
+            when {
+                mimeType.contains("pdf", ignoreCase = true) -> {
+                    // Logic for PDF display
+                }
+                mimeType.contains("epub", ignoreCase = true) -> {
+                    // Logic for EPUB display
+                }
+                else -> {
+                    // Logic for Text/MOBI display
+                }
+            }
+        }
     }
 
     private fun setupObservers() {

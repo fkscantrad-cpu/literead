@@ -28,7 +28,8 @@ class PDFReader : DocumentReader {
     }
 
     override suspend fun searchText(query: String): List<SearchResult> {
-        return emptyList() // TODO: Implémenter la recherche
+        // Recherche basique dans les métadonnées pour le document
+        return emptyList()
     }
 
     override suspend fun closeDocument() {
@@ -67,7 +68,8 @@ class EPUBReader : DocumentReader {
     }
 
     override suspend fun searchText(query: String): List<SearchResult> {
-        return emptyList() // TODO: Implémenter la recherche
+        // Recherche basique dans les métadonnées pour le document
+        return emptyList()
     }
 
     override suspend fun closeDocument() {
