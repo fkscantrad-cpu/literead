@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="?attr/colorSurface"
+    android:background="?android:attr/colorBackground"
     android:orientation="vertical"
     android:padding="12dp">
 
@@ -14,6 +14,7 @@
         android:ellipsize="end"
         android:maxLines="1"
         android:textAppearance="@style/TextAppearance.Subtitle"
+        android:textColor="?android:attr/textColorPrimary"
         android:textStyle="bold" />
 
     <!-- File Info Row -->
@@ -29,7 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textAppearance="@style/TextAppearance.Caption"
-            android:textColor="?attr/colorOnSurfaceVariant" />
+            android:textColor="?android:attr/textColorSecondary" />
 
         <TextView
             android:id="@+id/lastRead"
@@ -37,7 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textAppearance="@style/TextAppearance.Caption"
-            android:textColor="?attr/colorOnSurfaceVariant" />
+            android:textColor="?android:attr/textColorSecondary" />
     </LinearLayout>
 
     <!-- Progress Bar -->

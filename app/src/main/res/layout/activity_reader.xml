@@ -19,7 +19,7 @@
         android:id="@+id/readerControls"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?attr/colorSurface"
+        android:background="?android:attr/windowBackground"
         android:elevation="8dp"
         android:orientation="vertical"
         android:padding="12dp">
