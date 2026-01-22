@@ -2,7 +2,7 @@
 
 > 🚀 **The fastest, lightest, most beautiful document reader for Android**
 > 
-> Read PDF, EPUB, TXT & MOBI with elegance. No bloat. No ads. Just reading.
+> Read PDF, EPUB, cbz ,cbr TXT & MOBI with elegance. No bloat. No ads. Just reading.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Android API 21+](https://img.shields.io/badge/Android-API%2021%2B-green)](https://www.android.com)
